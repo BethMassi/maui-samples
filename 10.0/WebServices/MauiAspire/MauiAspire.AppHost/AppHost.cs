@@ -46,7 +46,7 @@ if (OperatingSystem.IsMacOS())
         .WithReference(webapi, publicDevTunnel);
 }
 
-mauiapp.AddAndroidEmulator()
+mauiapp.AddAndroidEmulator(e)
     .WithOtlpDevTunnel()
     .WithReference(webapi, publicDevTunnel);
 
