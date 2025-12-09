@@ -78,7 +78,6 @@ You can run this sample using Visual Studio, Visual Studio Code, or the command 
 3. Press F5 to run the application. NOTE: to run the Android emulator, you may need to `dotnet run` the AppHost from the terminal for now.
 4. The Aspire dashboard will open in your browser, showing all registered services
 5. From the dashboard, manually start the MAUI app targets (Windows, Mac Catalyst, iOS, or Android)
-1. -- > How do I start Android? Run from terminal for now. 
 6. The MAUI app will connect to the weather API through service discovery
 
 ### Visual Studio Code
